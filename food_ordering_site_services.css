@@ -1,0 +1,214 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#navbar{
+    font-family: 'Baloo Bhai 2', cursive;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    justify-items: center;
+    border-radius: 36px;
+    margin: 10px 20px;
+    width: 90px;
+    height: 50px;
+}
+ul{
+    display: flex;
+    padding: 3px;
+
+}
+ul li.item{
+    display: flex;
+    list-style: none;
+    
+
+}
+ul li a{
+    display: block;
+    background-color: rgb(10, 10, 10);
+    padding: 3px;
+    color: white;
+    margin: 0px 12px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.8s;
+    border-radius: 5px;
+    
+    
+    
+
+}
+#navbar::before{
+    content: '';
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+ul li a:hover{
+    transform: scale3d(1.2,1.2,1.2);
+    background-color: white;
+    color: rgb(0, 0, 0)
+
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 10px;
+    /* border: 2px solid white; */
+    
+    
+}
+.home::before{
+    top: 0px;
+    content: '';
+    background: url("food/kitchen-731351_1920.jpg") no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#primary{
+    display: block;
+    /* border: 2px solid rgb(0, 0, 0); */
+    color: black;
+    font-size: 3rem;
+    border-radius: 10px;
+    margin: 5px;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-shadow: 3px 3px 10px wheat;
+    justify-items: center;
+}
+
+section div p.box{
+    /* border: 2px solid red; */
+    margin: 4px 10px;
+    padding: 4px;
+}
+.box1{
+    padding: 8px;
+    margin: 2px 19px;
+    border-radius: 10px;
+}
+#btn{
+    background-color: crimson;
+}
+/* #gif{
+    width: 100px;
+    height: 70px;
+    float: right;
+} */
+section div#para{
+    height: 257px;
+}
+/* .container2{
+    width: 100%;
+    height: 100%; */
+    /* border: 2px solid rebeccapurple; */
+/*     
+}
+section h1#heading {
+    text-shadow: 2px 3px 10px rgb(249, 252, 111);
+    display: block;
+    border: 2px solid rgb(0, 0, 0); */
+    /* color: black;
+    font-size: 2rem;
+    border-radius: 10px;
+    margin: 5px;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-shadow: 3px 3px 10px wheat;
+    justify-items: center;
+}
+
+.boxx{
+    display: flex;
+    flex-direction: row;
+    width: 30%; */
+    /* background-image: url('food/logo.jpg') no-repeat center center/cover; */
+    /* border: 2px solid red; */
+    /* width: 1320px; */
+    /* height: 600px; */
+/* }
+.boxx::before{
+    top: 283px;
+    content: '';
+    background: url("food/chef-1417239_1280.png") no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    z-index: -1;
+    opacity: 0.7;
+} */
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 605px;
+}
+.container2::before{
+    top: 338px;
+    content: '';
+    background: url("food/food-5282718_1920.jpg") no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#heading{ 
+    font-size: 2.8rem;
+    display: block;
+    text-align: center;
+    margin: 5px auto;    
+    justify-items: center;
+    text-decoration: underline;
+}
+.items{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    text-align: center;
+}
+.boxx{
+    /* text-align: center; */
+    /* justify-items: center; */
+    margin: 15px 19px;
+    padding: 3px;
+    border: 4px solid rgb(36, 38, 194);
+    width: 85%;
+    border-radius: 10px;
+    transition: background-color 1s ;
+}
+.boxx:hover{
+    background-color: white;
+    transform: scale(1.01);
+}
+#img2{
+    width: 210px;
+    height: 150px;
+}
+#new{
+    font-size: 1.2rem;
+    text-shadow: 3px 3px 10px lightcoral;
+    padding: 2px;
+ }
+#headng{
+    text-align: center;
+     font-size: 2em; 
+}
+/* section.sectional{
+    display: flex;
+}
+.last_division{
+    top: 950px;
+} */ 
